@@ -1,0 +1,20 @@
+.media {
+  margin-bottom: 0;
+  overflow: hidden;
+  *overflow: visible;
+  zoom: 1;
+}
+.media,
+.media .bd {
+  overflow: hidden;
+  _overflow: visible;
+  zoom: 1;
+}
+.media .img {
+  float: left;
+  margin-right: 16px;
+}
+.media .imgExt {
+  float: right;
+  margin-left: 16px;
+}

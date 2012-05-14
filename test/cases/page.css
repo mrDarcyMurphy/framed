@@ -1,0 +1,10 @@
+div[data-role="page"] {
+  margin: 0;
+  max-width: 768px;
+  overflow: hidden;
+}
+@media screen and (min-width: width) {
+  div[data-role="page"] {
+    margin: 0 auto;
+  }
+}

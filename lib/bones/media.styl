@@ -1,0 +1,22 @@
+// USAGE:
+//  .media
+//    media(16px)
+
+media(margin = 8px)
+  margin-bottom 0
+  overflow hidden
+  *overflow visible
+  zoom 1
+
+  &, & .bd
+    overflow hidden
+    _overflow visible
+    zoom 1
+
+  & .img
+    float left
+    margin-right margin
+
+  & .imgExt
+    float right
+    margin-left margin

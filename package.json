@@ -1,0 +1,19 @@
+{
+  "name": "Bones",
+  "version": "0.0.0-alpha",
+  "description": "OOCSS Responsive Framework for Stylus",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrDarcyMurphy/Bones.git"
+  },
+  "devDependencies": {
+      "connect": "1.x"
+    , "jade": "0.26.0"
+    , "stylus": "0.27.x"
+    , "mocha": "*"
+    , "should": "*"
+  },
+  "author": "Darcy Murphy <mrDarcyMurphy@gmail.com>",
+  "main": "lib/bones.js",
+  "engines": { "node": "*" }
+}
