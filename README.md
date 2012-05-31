@@ -1,4 +1,4 @@
-# Bones
+# Framed
 
 OOCSS inspired Responsive Framework for Stylus
 

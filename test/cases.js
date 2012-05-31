@@ -4,7 +4,7 @@
  */
 
 var stylus = require('stylus')
-  , bones = require('../')
+  , framed = require('../')
   , fs = require('fs');
 
 // test cases
@@ -24,7 +24,7 @@ describe('integration', function(){
       var css = fs.readFileSync('test/cases/' + test + '.css', 'utf8').replace(/\r/g, '').trim();
 
       var style = stylus(styl)
-        .use(bones())
+        .use(framed())
         .set('filename', path)
         .define('url', stylus.url());
 
