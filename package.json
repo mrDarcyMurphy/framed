@@ -1,10 +1,10 @@
 {
-  "name": "Bones",
-  "version": "0.0.0-alpha",
+  "name": "bones",
+  "version": "0.0.0-beta",
   "description": "OOCSS Responsive Framework for Stylus",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mrDarcyMurphy/Bones.git"
+    "url": "git://github.com/mrDarcyMurphy/bones.git"
   },
   "devDependencies": {
       "connect": "1.x"
