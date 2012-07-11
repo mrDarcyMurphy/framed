@@ -16,5 +16,5 @@
   "homepage": "https://github.com/mrDarcyMurphy/framed",
   "author": "Darcy Murphy <mrDarcyMurphy@gmail.com>",
   "main": "lib/framed.js",
-  "engines": { "node": "0.6" }
+  "engines": { "node": ">= 0.6" }
 }
