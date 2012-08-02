@@ -3,7 +3,7 @@ div[data-role="page"] {
   max-width: 768px;
   overflow: hidden;
 }
-@media screen and (min-width: width) {
+@media screen and (min-width: 768px) {
   div[data-role="page"] {
     margin: 0 auto;
   }
