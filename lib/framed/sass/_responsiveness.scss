@@ -1,0 +1,34 @@
+// Responsive Mutations
+//USAGE
+// @include breakpoint(small-screens) { @content; }
+
+.row.collapse .column { float: none; width: 100%; }
+@media screen and (max-width:1024px) {
+  .row.collapse-1024 > .column { float: none; width: 100%; }
+  .show-over-1024  { display: none; }
+}
+@media screen and (max-width:768px) {
+  .row.collapse-768 > .column { float: none; width: 100%; }
+  .show-over-768  { display: none; }
+}
+@media screen and (max-width:600px) {
+  .row.collapse-600 > .column { float: none; width: 100%; }
+  .show-over-600 { display: none; }
+}
+@media screen and (max-width:480px) {
+  .row.collapse-480 > .column { float: none; width: 100%; }
+  .show-over-480 { display: none; }
+}
+
+@media screen and (min-width:1025px) {
+  .show-under-1024 { display: none; }
+}
+@media screen and (min-width:769px) {
+  .show-under-768 { display: none; }
+}
+@media screen and (min-width:601px) {
+  .show-under-600 { display: none; }
+}
+@media screen and (min-width:481px) {
+  .show-under-480 { display: none; }
+}

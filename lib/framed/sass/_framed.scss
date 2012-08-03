@@ -1,0 +1,75 @@
+// Basics
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: none;
+  margin: 0;
+  min-height: 100%;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+// Layout Foundations
+.row {
+  display: block;
+  margin: 0;
+  padding: 0;
+  clear: left;
+}
+.column {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+// Element Containers
+.element {
+  margin: 0 4px 0 0;
+}
+.column:first-child .element {
+  margin-left: 4px;
+}
+.column:last-child .element {
+  margin-right: 4px;
+}
+
+// Column Widths
+.x100{
+  width: 100%;
+}
+.x75 {
+  width: 75%;
+}
+.x66 {
+  width: 66.667%;
+}
+.x50 {
+  width: 50%;
+}
+.x33 {
+  width: 33.333%;
+}
+.x25 {
+  width: 25%;
+}
+.x20
+  width: 20%;
+}
+.x10 {
+  width: 10%
+}
+.x5 {
+  width: 5%;
+}
+
+
