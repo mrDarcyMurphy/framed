@@ -1,7 +1,7 @@
 {
   "name": "framed",
-  "version": "0.0.2",
-  "description": "OOCSS Responsive Framework for Stylus",
+  "version": "0.1.0",
+  "description": "OOCSS Responsive Framework for Stylus & Sass",
   "repository": {
     "type": "git",
     "url": "git://github.com/mrDarcyMurphy/framed.git"
