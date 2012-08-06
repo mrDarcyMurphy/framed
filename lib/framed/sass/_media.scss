@@ -1,0 +1,26 @@
+// USAGE:
+//  .media
+//    @include media(16px);
+
+@mixin media($marginSize: 8px) {
+  margin: $marginSize;
+  margin-bottom: 0;
+  overflow: hidden;
+  *overflow: visible;
+  zoom: 1;
+
+  &, & .bd {
+    overflow: hidden;
+    _overflow: visible;
+    zoom: 1;
+  }
+
+  & .img {
+    float: left
+    margin-right: $marginSize;
+  }
+  & .imgExt {
+    float: right;
+    margin-left: $marginSize;
+  }
+}
